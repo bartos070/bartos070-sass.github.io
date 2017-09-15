@@ -1,0 +1,31 @@
+/* nawigacja */
+#main-nav {
+	background-color: transparent;
+	border: 0;
+    a.navbar-brand {
+	font-size: 2em;
+	font-family: 'Droid Serif', sans-serif;
+	text-transform: none;
+    a {
+	color: #fff;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	transition: all .3s;
+    a:hover {
+	color: #0ed8d6;
+} 
+}
+}
+}
+
+#main-nav.scroll {
+	background-color: rgba(14, 216, 214, 0.85);
+    a {
+	color: #fff;
+    a:hover {
+	color: #777777;
+}
+}
+}
+/* koniec nawigacji */
+

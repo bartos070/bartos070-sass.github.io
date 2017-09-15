@@ -1,0 +1,167 @@
+/* nawigacja */
+#main-nav {
+  background-color: transparent;
+  border: 0; }
+  #main-nav a.navbar-brand {
+    font-size: 2em;
+    font-family: 'Droid Serif', sans-serif;
+    text-transform: none; }
+    #main-nav a.navbar-brand a {
+      color: #fff;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+      transition: all .3s; }
+      #main-nav a.navbar-brand a a:hover {
+        color: #0ed8d6; }
+
+#main-nav.scroll {
+  background-color: rgba(14, 216, 214, 0.85); }
+  #main-nav.scroll a {
+    color: #fff; }
+    #main-nav.scroll a a:hover {
+      color: #777777; }
+
+/* koniec nawigacji */
+/* Main Header Styles */
+#main-header {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header/pictures_on_the_wall.jpg);
+  background-size: cover;
+  position: relative; }
+  #main-header .header-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center; }
+    #main-header .header-caption h1 {
+      color: #fff;
+      margin: 45px 0; }
+      #main-header .header-caption h1 h2 {
+        color: #fff;
+        font-family: 'Droid Serif', sans-serif;
+        font-size: 2.5em; }
+
+/* Main Header Styles End */
+/* Section Services Styles */
+#services .fa {
+  font-size: 3em;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  border: 1px solid #0ed8d6;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #0ed8d6;
+  transition: all .3s; }
+  #services .fa .fa:hover {
+    color: #0ed8d6;
+    background-color: #fff;
+    transform: rotate(360deg); }
+
+/* Section Services Styles End */
+/* Section Portfolio Styles */
+#portfolio {
+  background-color: #f7f7f7; }
+  #portfolio #portfolio-item-1 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg); }
+  #portfolio #portfolio-item-2 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg); }
+  #portfolio #portfolio-item-3 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg); }
+  #portfolio #portfolio-item-4 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg); }
+  #portfolio #portfolio-item-5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg); }
+  #portfolio #portfolio-item-6 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg); }
+  #portfolio .single-portfolio-item {
+    background: #fff;
+    margin-bottom: 20px; }
+    #portfolio .single-portfolio-item .portfolio-image-container {
+      height: 300px;
+      overflow: hidden; }
+    #portfolio .single-portfolio-item .portfolio-image {
+      background-position: center;
+      background-size: cover;
+      height: 100%;
+      position: relative;
+      transition: .3s; }
+      #portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask {
+        background-color: rgba(14, 216, 214, 0.85);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: all .3s;
+        cursor: pointer; }
+      #portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask:hover {
+        opacity: 1; }
+        #portfolio .single-portfolio-item .portfolio-image .portfolio-image-mask:hover .fa {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          color: #fff;
+          font-size: 3em;
+          margin: auto;
+          left: 0;
+          right: 0; }
+    #portfolio .single-portfolio-item .portfolio-image:hover {
+      transform: scale(1.2); }
+
+/* Section Portfolio Styles End */
+/* Section Team Styles */
+#team .team-member {
+  margin-bottom: 40px; }
+  #team .team-member img {
+    max-height: 230px; }
+
+/* Section Team Styles End */
+/* Section Contact */
+#contact {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/footer/world-map.jpg);
+  background-size: cover;
+  background-position: center; }
+  #contact h2,
+  #contact p {
+    color: #fff; }
+  #contact input:not([type='submit']),
+  #contact #contact textarea {
+    width: 100%;
+    border: 0px solid; }
+  #contact input,
+  #contact textarea {
+    text-transform: uppercase;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px; }
+  #contact input:not(:last-child) {
+    margin-bottom: 30px; }
+  #contact input[type="submit"] {
+    margin-top: 30px; }
+  #contact ::-webkit-input-placeholder,
+  #contact ::-moz-placeholder,
+  #contact :-ms-input-placeholder,
+  #contact :-moz-placeholder {
+    color: #777; }
+
+/* Section Contact End */
+#main-footer {
+  padding: 10px 0; }
+  #main-footer ul li {
+    display: inline-block;
+    margin-right: 10px; }
+  #main-footer #main-footer nav a {
+    color: #777;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all .3s; }
+  #main-footer #main-footer nav a:hover {
+    color: #0ed8d6; }
+  #main-footer #main-footer .copyright {
+    line-height: 50px;
+    margin: 0; }
+  #main-footer #main-footer .social-icons {
+    text-align: center; }
